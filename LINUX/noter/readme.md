@@ -12,6 +12,11 @@ categories:
 The given box ```Noter``` is a Linux machine 
 
 - [HackTheBox- Noter](#hackthebox---Noter)
+- [Recon](#recon)
+	- [Nmap Scan](#nmap-scan)
+- [Enumeration](#enumeration)
+- [Exploiting the vulnerability](#Exploiting-the-vulnerability)
+- [Privilege Escalation](#Privilege-Escalation)
 
 ## Recon
 
@@ -248,7 +253,7 @@ ftp> ls
 <img src="https://raw.githubusercontent.com/0xM3M0RY/htb_ctf/main/LINUX/noter/assets/images/12.png" >
 </center>
 
-### Exploiting the vulnerability
+## Exploiting the vulnerability
 
 ```shell
 ┌─[htb-enum0re☺pwnbox-base]─[~]
@@ -274,7 +279,7 @@ svc@noter:/tmp$ ls -al 1
 ```
 
 
-### Privilege Escalation
+## Privilege Escalation
 
 From the source code, we got the db credentials as `DB_user & root` using root user checked the udf part that was working fine. So used the `raptor script` to escalate the privilege.
 
