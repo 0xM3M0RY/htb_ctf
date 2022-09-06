@@ -1,0 +1,11 @@
+200      GET       98l      512w     4909c http://10.10.11.156/assets/css/bootstrap-theme.css
+200      GET        7l       68w     3290c http://10.10.11.156/assets/js/headroom.min.js
+200      GET        8l       73w     2429c http://10.10.11.156/assets/js/html5shiv.js
+200      GET      204l      517w     6364c http://10.10.11.156/contact.html
+200      GET       82l      522w     4166c http://10.10.11.156/assets/css/main.css
+200      GET      230l     1009w     9461c http://10.10.11.156/index.html
+200      GET       13l       18w      217c http://10.10.11.156/assets/js/template.js
+200      GET        7l       36w      547c http://10.10.11.156/assets/js/jQuery.headroom.min.js
+200      GET        4l       17w      370c http://10.10.11.156/assets/images/gt_favicon.png
+200      GET      230l     1009w     9461c http://10.10.11.156/
+301      GET        7l       13w      194c http://10.10.11.156/assets => http://10.10.11.156/assets/

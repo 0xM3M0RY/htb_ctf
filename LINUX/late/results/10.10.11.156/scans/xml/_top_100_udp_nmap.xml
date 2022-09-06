@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Sat Aug  6 22:17:25 2022 as: nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /root/enum-more/obsidian_vault/htb/LINUX/late/results/10.10.11.156/scans/_top_100_udp_nmap.txt -oX /root/enum-more/obsidian_vault/htb/LINUX/late/results/10.10.11.156/scans/xml/_top_100_udp_nmap.xml 10.10.11.156 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /root/enum-more/obsidian_vault/htb/LINUX/late/results/10.10.11.156/scans/_top_100_udp_nmap.txt -oX /root/enum-more/obsidian_vault/htb/LINUX/late/results/10.10.11.156/scans/xml/_top_100_udp_nmap.xml 10.10.11.156" start="1659804445" startstr="Sat Aug  6 22:17:25 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="100" services="7,9,17,19,49,53,67-69,80,88,111,120,123,135-139,158,161-162,177,427,443,445,497,500,514-515,518,520,593,623,626,631,996-999,1022-1023,1025-1030,1433-1434,1645-1646,1701,1718-1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,4444,4500,5000,5060,5353,5632,9200,10000,17185,20031,30718,31337,32768-32769,32771,32815,33281,49152-49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1659804445"/>
+<taskend task="NSE" time="1659804445"/>
+<taskbegin task="NSE" time="1659804445"/>
+<taskend task="NSE" time="1659804445"/>
+<taskbegin task="NSE" time="1659804445"/>
+<taskend task="NSE" time="1659804445"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1659804445"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1659804445"/>
+<taskbegin task="UDP Scan" time="1659804445"/>
+<taskend task="UDP Scan" time="1659804536" extrainfo="100 total ports"/>
+<taskbegin task="Service scan" time="1659804536"/>
+<taskprogress task="Service scan" time="1659804598" percent="8.33" remaining="682" etc="1659805280"/>
+<taskend task="Service scan" time="1659804634" extrainfo="12 services on 1 host"/>
+<taskbegin task="Traceroute" time="1659804636"/>
+<taskend task="Traceroute" time="1659804636"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1659804636"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1659804636"/>
+<taskbegin task="NSE" time="1659804636"/>
+<taskprogress task="NSE" time="1659804667" percent="99.45" remaining="1" etc="1659804667"/>
+<taskend task="NSE" time="1659804674"/>
+<taskbegin task="NSE" time="1659804674"/>
+<taskend task="NSE" time="1659804675"/>
+<taskbegin task="NSE" time="1659804675"/>
+<taskend task="NSE" time="1659804675"/>
+<host starttime="1659804445" endtime="1659804675"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.11.156" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="88">
+<extrareasons reason="port-unreach" count="88" proto="udp" ports="7,9,17,19,49,53,67-69,80,88,111,120,123,137-139,158,161-162,177,427,443,497,500,514-515,518,520,593,626,631,996,998-999,1022-1023,1025-1030,1433-1434,1646,1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,4444,4500,5000,5060,9200,10000,17185,20031,30718,31337,32768-32769,32771,32815,49152,49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+</extraports>
+<port protocol="udp" portid="135"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="136"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="623"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="asf-rmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="997"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="maitrd" method="table" conf="3"/></port>
+<port protocol="udp" portid="1645"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="radius" method="table" conf="3"/></port>
+<port protocol="udp" portid="1701"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="L2TP" method="table" conf="3"/></port>
+<port protocol="udp" portid="1718"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="h225gatedisc" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="zeroconf" method="table" conf="3"/></port>
+<port protocol="udp" portid="5632"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="33281"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="udp" portid="49153"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="7"/>
+<osfingerprint fingerprint="SCAN(V=7.92%E=4%D=8/6%OT=%CT=%CU=7%PV=Y%DS=2%DC=T%G=N%TM=62EE9C04%P=aarch64-unknown-linux-gnu)&#xa;SEQ(CI=Z%II=I)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<distance value="2"/>
+<trace port="3283" proto="udp">
+<hop ttl="1" ipaddr="10.10.16.1" rtt="176.73"/>
+<hop ttl="2" ipaddr="10.10.11.156" rtt="176.83"/>
+</trace>
+<times srtt="181945" rttvar="10255" to="222965"/>
+</host>
+<taskbegin task="NSE" time="1659804676"/>
+<taskend task="NSE" time="1659804676"/>
+<taskbegin task="NSE" time="1659804676"/>
+<taskend task="NSE" time="1659804676"/>
+<taskbegin task="NSE" time="1659804676"/>
+<taskend task="NSE" time="1659804676"/>
+<runstats><finished time="1659804676" timestr="Sat Aug  6 22:21:16 2022" summary="Nmap done at Sat Aug  6 22:21:16 2022; 1 IP address (1 host up) scanned in 231.23 seconds" elapsed="231.23" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
