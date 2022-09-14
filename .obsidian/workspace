@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LINUX/noter/readme.md",
+            "file": "README.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LINUX/noter/readme.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LINUX/noter/readme.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LINUX/noter/readme.md"
+                "file": "README.md"
               }
             }
           }
@@ -129,5 +129,7 @@
     "collapsed": true
   },
   "active": "4623cf273c7cda1b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "noter/readme.md"
+  ]
 }
