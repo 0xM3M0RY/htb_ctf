@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "easy_jerry/readme.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "easy_jerry/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "easy_jerry/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "easy_jerry/readme.md"
               }
             }
           }
@@ -130,6 +130,13 @@
   },
   "active": "4623cf273c7cda1b",
   "lastOpenFiles": [
-    "noter/readme.md"
+    "easy_jerry/assets/images/4.png",
+    "easy_jerry/assets/images/3.png",
+    "easy_jerry/assets/images/2.png",
+    "easy_jerry/assets/images/1.png",
+    "easy_jerry/readme.md",
+    "noter/readme.md",
+    "goodgames/readme.md",
+    "README.md"
   ]
 }

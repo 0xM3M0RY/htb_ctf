@@ -1,3 +1,5 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "easy_jerry/assets/images",
+  "alwaysUpdateLinks": true
 }
