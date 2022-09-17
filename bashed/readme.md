@@ -2,8 +2,8 @@
 title: "HTB - Bashed"
 classes: wide
 tag:
-- "Tomcat default credentials"
-- "War deploy exploit"
+- "PHP bash"
+- "Directory Bruteforce"
 - "Easy Box"
 - "TJ_Null's OSCP Prep"
 header:
@@ -20,8 +20,10 @@ The given box ```Bashed``` is a Linux machine
 - [Recon](#recon)
 	- [Nmap Scan](#nmap-scan)
 - [Enumeration](#enumeration)
-	- []
-- [Shell](#Shell)
+	- [Site](#Site)
+	- [Directory Bruteforcing](#Directory-Bruteforcing)
+	- [Exploring phpbash.php](#Exploring-phpbash.php)
+- [Shell as www-data](#Shell)
 - [Shell as root](#Shell as root)
 
 <center>
