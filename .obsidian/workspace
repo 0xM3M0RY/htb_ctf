@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "easy_jerry/readme.md",
+            "file": "bashed/readme.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "easy_jerry/readme.md",
+                "file": "bashed/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "easy_jerry/readme.md",
+                "file": "bashed/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "easy_jerry/readme.md"
+                "file": "bashed/readme.md"
               }
             }
           }
@@ -130,13 +130,15 @@
   },
   "active": "4623cf273c7cda1b",
   "lastOpenFiles": [
-    "easy_jerry/assets/images/4.png",
-    "easy_jerry/assets/images/3.png",
-    "easy_jerry/assets/images/2.png",
-    "easy_jerry/assets/images/1.png",
-    "easy_jerry/readme.md",
+    "bashed/assets/images/5.png",
+    "bashed/assets/images/6.png",
+    "bashed/assets/images/4.png",
+    "bashed/assets/images/3.png",
+    "bashed/assets/images/2.png",
+    "bashed/assets/images/1.png",
+    "bashed/readme.md",
+    "uhc-backend/readme.md",
     "noter/readme.md",
-    "goodgames/readme.md",
-    "README.md"
+    "easy_jerry/readme.md"
   ]
 }
