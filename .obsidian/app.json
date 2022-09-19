@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "nibbles/assets/images",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "sense/assets/images",
+  "alwaysUpdateLinks": true,
+  "spellcheck": true
 }

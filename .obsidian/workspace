@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nibbles/readme.md",
+            "file": "sense/readme.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nibbles/readme.md",
+                "file": "sense/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nibbles/readme.md",
+                "file": "sense/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nibbles/readme.md"
+                "file": "sense/readme.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "4623cf273c7cda1b",
   "lastOpenFiles": [
-    "nibbles/assets/images/1.png",
+    "sense/assets/images/7.png",
+    "sense/assets/images/6.png",
+    "sense/assets/images/5.png",
+    "sense/assets/images/4.png",
+    "sense/assets/images/3.png",
+    "sense/assets/images/2.png",
+    "sense/assets/images/1.png",
+    "sense/readme.md",
     "nibbles/readme.md",
-    "nibbles/assets/images/10.png",
-    "nibbles/assets/images/9.png",
-    "nibbles/assets/images/8.png",
-    "nibbles/assets/images/7.png",
-    "nibbles/assets/images/6.png",
-    "nibbles/assets/images/5.png",
-    "nibbles/assets/images/4.png",
-    "nibbles/assets/images/3.png"
+    "support/readme.md"
   ]
 }
